@@ -174,11 +174,12 @@ h4 {
     margin: 5px;
 }
     p {
-        font-family: "Alegreya Sans", sans-serif;
-        color: black;
+       
         font-size: 130%;
-        padding-bottom:1%;
+        
+        padding:0, 2%;
     }
+   
 
     img {
         width: 100%;
