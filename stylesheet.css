@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #F5F5F5;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h1 {
+    font-size: 3rem;
+    /*font-size: 250%;*/
+    /*line-height: 100%;*/
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    color:#DB3340 /*#008B8B*/;
+}
+
+h2 {
+    font-size: 2.5rem;
+    /*font-size: 200%;*/
+    /*line-height: 100%;*/
+    font-weight: 600;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #354458/*#85144b*/;
+}
+
+h3 {
+     font-size: 2.5rem;
+    /*font-size: 200%;*/
+    font-weight: 400;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #FA8072;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 300;    
+    text-align: center;
+    margin: auto; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: steelblue;
+}
+.subheading{
+    font-size: 1.8rem;
+    padding-top:  2%;
+    padding-bottom: 2%;
+    font-weight: 600;
+    color: #008080;
+}
+aside {
+    font-size: 1.5rem;
+    line-height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 650;
+    color: #008080;
+}
+section {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section div {
+    padding-top: 2%;
+}
+
+section div h4 {
+    font-size: 2rem;
+    /*font-size: 200%;*/
+    font-weight: 600;
+    text-align: left;
+    color: #20B2AA;
+    padding-bottom: 1%;
+}
+section div p{
+    font-family: "Verdana";
+    color: black; /*#F5F5F5;*/
+    font-size: 1rem;
+    line-height: 120%;
+    text-align: left;
+}
+.clearfix {
+    clear: both;
+}
+
+p {
+    font-family: "Alegreya Sans", sans-serif;
+    color: black; /*#F5F5F5;*/
+    font-size: 150%;
+    line-height: 120%;
+    padding: 0, 3%;
+    text-align: justify;
+}
+
+.titlearea {
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
+.spanclass{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: justify;
+    color: #D33F34;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+table {
+    border-spacing: 5px;
+    width: 80%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.tablediv{
+    overflow-x: auto;
+    overflow-y: hidden; 
+}
+img {
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#Keralalogo {
+    width: 15%;
+    height: 15%;
+}
+
+#twiter {
+    float:right;
+    margin-right:3%;
+    width: 10%;
+    height: 10%;
+    border: none;
+}
+
+a {
+    transition: color .4s;
+    color: #0074D9;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link,
+a:visited { color: #0074D9; }
+a:hover   { color: #7FDBFF; }
+a:active  {transition: color .3s;
+  color: #007BE6;
+}
+
+.Hashtag {
+    margin: 1%;
+}
+#googledoc{
+    /*font-size: 175%;*/
+   /*line-height: 125%;*/
+    padding: 2%;
+    font-weight: 400;
+    border: 5px solid black;
+}
+
+@media screen and (max-width: 768px) {
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.7rem;
+    /*font-size: 200%;*/
+    font-weight: 500;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+    
+h3 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #FA8072;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 200;    
+    margin: auto; 
+    color: steelblue;
+    /*font-size: 150%;*/
+}
+aside {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+p {       
+    font-size: 1.2rem;
+    padding-top:2%;
+    font-weight: 500;
+    padding-bottom:2%;
+   
+}
+img {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    border: 5px solid black;
+}
+
+#Keralalogo {
+    width: 30%;
+    height: 30%;
+}
+
+table {          
+    width: 100%;
+}
+
+table a {
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: 200%;
+}
+.spanclass{
+    font-size: 1.2rem;
+
+}
+.subheading{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#twiter {
+    display:none;
+}
+}
